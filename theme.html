@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>App</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/1d2e153e32.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500&display=swap" rel="stylesheet">
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- <div id="root">
+      <img src="images/loading.gif" alt="" class="loader">
+    </div> -->
+    <!-- HEADER -->
+    <header>
+      <nav class="navbar mb-5">
+          <div class="container">
+            <a class="navbar-brand"><img src="images/logotip.svg" alt=""></a>
+            <div class="input-group rounded position-relative">
+              <span class="input-group-text border-0 position-absolute" id="search-addon">
+                <img src="images/search.svg" alt="">
+              </span>
+              <input type="search" class="form-control rounded-pill h-100 border-0 bg-secondary" placeholder="Search for places" aria-label="Search" aria-describedby="search-addon" />
+            </div>
+            <img src="images/location.svg" alt="">
+            <span id="geo"></span>
+            <div>en</div>
+          </div>
+        </nav>        
+    </header>
+
+    <!-- MAIN -->
+    <main>
+      <!-- Navigation -->
+      <div class="container">
+        <div class="d-flex justify-content-between">
+          <nav class="menu navbar-expand-lg navbar-light me-5">
+            <ul class="navbar-nav flex-column me-auto mb-2 mb-lg-0">
+              <li class="nav-item d-flex align-items-center mb-4">
+                <span class="mark position-relative"><img class="nav-img" src="images/home.svg" alt=""></span>
+                <a class="nav-link" aria-current="page" href="index.html">Dashboard</a>
+              </li>
+              <li class="nav-item d-flex align-items-center mb-4">
+                <span class="mark position-relative"><img class="nav-img" src="images/note.svg" alt=""></span>
+                <a class="nav-link" href="#!">Note’s</a>
+              </li>
+              <li class="nav-item d-flex align-items-center mb-4">
+                <span class="mark position-relative"><img class="nav-img" src="images/explore.svg" alt=""></span>
+                <a class="nav-link" href="#">Explore</a>
+              </li>
+              <li class="nav-item d-flex align-items-center mb-4">
+                <span class="mark mark_active position-relative"><img class="nav-img" src="images/theme.svg" alt=""></span>
+                <a class="nav-link" href="#!">Theme</a>
+              </li>
+              <li class="nav-item d-flex align-items-center mb-4">
+                <span class="mark position-relative"><img class="nav-img" src="images/setting.svg" alt=""></span>
+                <a class="nav-link" href="#">Setting</a>
+              </li>
+              <li class="nav-item d-flex align-items-center mb-4">
+                <span class="mark position-relative"><img class="nav-img" src="" alt=""></span>
+                <a class="nav-link" href="app.html">Weather</a>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- section -->
+          <div class="d-flex w-100 justify-content-evenly">
+              <div class="me-4">             
+                <div class="hover-overlay" id="light-theme" data-mdb-ripple-color="light">
+                  <img class="theme" src="images/light-theme.jpg" class="image img-fluid">
+                </div>        
+                  <h3 class="card-title text-center">Light</h3>
+              </div>
+              <div class="me-4">             
+                <div class="hover-overlay" id="warm-theme" data-mdb-ripple-color="light">
+                  <img class="theme" src="images/warm-theme.jpg" class="image img-fluid">
+                </div>        
+                  <h3 class="card-title text-center">Warm</h3>
+              </div>
+              <div class="me-4">
+                <div class="hover-overlay" id="dark-theme" data-mdb-ripple-color="light">
+                  <img class="theme" src="images/dark-theme.jpg" class="image img-fluid">
+                </div>        
+                  <h3 class="card-title text-center">Dark</h3>
+              </div>
+          </div>
+          
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer text-center text-white">
+      <div class="container p-4">
+        <section class="mb-4">
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+          <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/Natalia1607" role="button"><i class="fab fa-github"></i></a>
+        </section>
+
+        <section class="">
+          <form action="">
+            <div class="row d-flex justify-content-center">
+              <div class="col-auto">
+                <p class="pt-2"><strong>Sign up for our newsletter</strong></p>
+              </div>
+              <div class="col-md-5 col-12">
+                <div class="form-outline form-white mb-4">
+                  <input type="email" id="form5Example21" class="form-control" />
+                  <label class="form-label" for="form5Example21">Email address</label>
+                </div>
+              </div>
+              <div class="col-auto">
+                <button type="submit" class="btn btn-outline-light mb-4">Subscribe</button>
+              </div>
+            </div>
+          </form>
+        </section>
+
+        <section class="mb-4">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+            repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+            eum harum corrupti dicta, aliquam sequi voluptate quas.
+          </p>
+        </section>
+
+        <section class="">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 2</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 2</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 2</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 2</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/">Natalia Gilyazova</a>
+      </div>
+    </footer>
+    <!-- Location -->
+    <script src="http://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=en_Us" type="text/javascript"></script>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

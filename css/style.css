@@ -1,0 +1,76 @@
+body {
+    font-family: 'Baloo 2', cursive;
+}
+main {
+    min-height:900px;
+}
+.input-group {
+    width: 573px;
+    height: 53px;
+}
+.form-control {
+    padding-left: 53px;
+}
+.input-group-text { 
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.menu {
+    width: 200px;
+}
+.mark {
+    background: none;
+}
+.mark_active {
+    background: url("../images/mark.png");
+    width: 105px;  
+    height: 64px;
+}
+.mark_active .nav-img {
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    transform: rotateY(-50%);
+}
+.card {
+    position: relative;
+    width: 270px;
+    box-shadow: none;
+}
+.card-body {
+    padding-left: 0;
+}
+.bg-image img{
+    height: 370px;
+}
+.icon__heart {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    cursor: pointer;
+}
+.card {
+    border-radius: 30px;
+}
+.image {
+    border-radius: 30px;
+}
+
+.footer {
+    background: #18333e;
+}
+.theme {
+    border-radius: 30px;
+    width: 300px;
+    height: 300px;
+}
+
+.dark-theme {
+    background-color: #232323;
+    color: #fff !important;
+}
+
+.warm-theme {
+    background-color: #e5d0a9;
+} 
